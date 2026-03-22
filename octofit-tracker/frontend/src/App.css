@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 48px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3b82f6 0%, #6366f1 100%) !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe066 !important;
+}
+.navbar-text {
+  color: #e0e7ff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3b3b5c;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(59, 130, 246, 0.08);
+  border: none;
+}
+.card-title {
+  color: #3b82f6;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table thead {
+  background: linear-gradient(90deg, #6366f1 0%, #3b82f6 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f5f9;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #e0e7ff;
+}
+
+.btn, .btn:focus {
+  background: linear-gradient(90deg, #6366f1 0%, #3b82f6 100%);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #3b82f6 0%, #6366f1 100%);
+  color: #ffe066;
+}
+
+.App-link, a {
+  color: #6366f1;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover, a:hover {
+  color: #3b82f6;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
